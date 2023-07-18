@@ -3,9 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style2.css" />
     <title>API</title>
   </head>
   <body>
+    <h1>Блог</h1>
+    <img src="assets/images/itgirls.jpeg" alt="logo" />
+    <div class="wrapper">
+      <section>
+        <input id="inputTitle" type="text" placeholder="Заголовок поста" />
+        <input id="inputText" type="text" placeholder="Текст поста" />
+        <input
+          id="createBtn"
+          type="submit"
+          placeholder="Создать пост"
+          onclick
+        />
+      </section>
+      <div id="newPost"></div>
+    </div>
+
     <script src="api2.js"></script>
   </body>
 </html>
